@@ -93,7 +93,7 @@ func main() {
 		}
 
 		return c.JSON(fiber.Map{
-			"message": "Create book successful",
+			"message": "Create book successful!",
 		})
 
 	})
